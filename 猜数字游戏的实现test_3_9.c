@@ -23,15 +23,15 @@ void game()//游戏主体的实现
 	{
 		printf("\n你猜测的数字(范围为0~100)为:>");
 		scanf("%d", &guess);//用户开始猜测数字
-		if (guess > ret)//用户猜大了
+		if (guess > ret)//用户猜大了继续循环
 		{
 			printf("猜大了\n");
 		}
-		else if (guess < ret)//用户猜小了
+		else if (guess < ret)//用户猜小了继续循环
 		{
 			printf("猜小了\n");
 		}
-		else//用户猜对了
+		else//用户猜对了结束循环
 		{
 			printf("恭喜你猜对了\n\n");
 			break;
