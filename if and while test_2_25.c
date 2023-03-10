@@ -9,5 +9,7 @@ int main()
 		line++;
 	}
 	if (line == 30000)
+	{
 		printf("头发掉光光\n");
+	}
 }
