@@ -2,13 +2,13 @@
 #include <stdio.h>
 int main()
 {
-	int line = 0;
-	while (line < 30000)
+	int userLine = 0;
+	while (userLine < 30000)
 	{
-		printf("写代码%d\n", line);
-		line++;
+		printf("写代码%d\n", userLine);
+		userLine++;
 	}
-	if (line == 30000)
+	if (userLine == 30000)
 	{
 		printf("头发掉光光\n");
 	}
