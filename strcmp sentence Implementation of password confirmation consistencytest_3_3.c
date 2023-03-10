@@ -11,7 +11,11 @@ int main()
 	printf("请再次输入密码:>");
 	scanf("%s", &password2);
 	if (strcmp(password1, password2) == 0)
+	{
 		printf("确认密码成功");
+	}
 	else
+	{
 		printf("两次密码不一致");
+	}
 }
