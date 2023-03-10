@@ -25,6 +25,8 @@ int main()
 		printf("分数等级是%c\n", grade);	//输出五分制成绩
 	}
 	else
+	{
 		printf("错误数据!\n");
+	}
 	return 0;
 }
