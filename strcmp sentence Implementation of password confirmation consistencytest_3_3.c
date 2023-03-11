@@ -7,9 +7,9 @@ int main()
 	char firstPassword[20];
 	char secondPassword[20];
 	printf("请输入密码:>");
-	scanf("%s", &firstPassword);
+	scanf("%s", firstPassword);
 	printf("请再次输入密码:>");
-	scanf("%s", &secondPassword);
+	scanf("%s", secondPassword);
 	if (strcmp(firstPassword, secondPassword) == 0)
 	{
 		printf("确认密码成功");
