@@ -97,7 +97,7 @@ void find_mine(char mine[X2][Y2], char show[X2][Y2], int x1, int y1)
 	{												//没雷区域=雷区减去雷 
 		printf("请选择:>");					//假设3个没雷区	0 1 2 排查三次
 		scanf("%d %d", &x, &y);
-		if (x < 1 || x > x1 && y < 1 || y > y1)
+		if ((x < 1 || x > x1) || (y < 1 || y > y1))
 		{
 			printf("坐标错误，请重新选择\n");//检测坐标是否正确
 			display_board(show, X1, Y1);
